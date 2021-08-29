@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/single_user_profile"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/profile"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/colorPrimary"
+        android:layout_centerVertical="true"
+        >
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:id="@+id/single_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Display name"
+        android:textColor="@color/black"
+        android:layout_marginLeft="135dp"
+        android:textSize="24sp"
+
+        >
+
+    </TextView>
+
+
+
+    <TextView
+        android:id="@+id/single_user_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_intrest"
+        android:layout_marginLeft="136dp"
+        android:layout_below="@id/single_user_name"
+        android:layout_marginTop="9dp"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        >
+    </TextView>
+    <ImageView
+        android:id="@+id/online_icon"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="6dp"
+        android:layout_toEndOf="@id/single_user_name"
+        android:layout_toRightOf="@+id/single_user_name"
+        android:visibility="visible"
+        android:layout_marginRight="150dp"
+        android:layout_marginLeft="8dp" />
+
+
+</RelativeLayout>

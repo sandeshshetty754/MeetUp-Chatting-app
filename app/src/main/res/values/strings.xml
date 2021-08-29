@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">MeetUp</string>
+    <string name="need_a_new_account">NEED A NEW ACCOUNT</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="password">Password</string>
+    <string name="button">Button</string>
+    <string name="email">Email</string>
+    <string name="this_is_main_activity">this is main activity</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="account_setting">Account Setting</string>
+    <string name="all_users">All Users</string>
+    <string name="log_out">Log Out</string>
+    <string name="create_a_new_account">Create a new Account</string>
+    <string name="login_to_your_account">Login To Your Account</string>
+    <string name="welcome_to_meetup">WELCOME TO MEETUP</string>
+    <string name="login">Login</string>
+    <string name="already_have_an_account">ALREADY HAVE AN ACCOUNT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="display_name">Display name</string>
+    <string name="change_status">change status</string>
+    <string name="change_image">change image</string>
+    <string name="hi_there_iam_using_meetup_app">Hi there, Iam using meetup App</string>
+    <string name="enter_your_status">Enter your status</string>
+    <string name="update">update</string>
+    <string name="save_changes">save changes</string>
+    <string name="sports">Sports</string>
+    <string name="music">music</string>
+    <string name="fitness">Fitness</string>
+    <string name="movies">movies</string>
+    <string name="cooking">cooking</string>
+    <string name="photography">photography</string>
+    <string name="gadgets">gadgets</string>
+    <string name="travel">travel</string>
+    <string name="video_games">video games</string>
+    <string name="reading">reading</string>
+    <string name="textview">TextView</string>
+    <string name="user_intrest">user intrest</string>
+    <string name="change_intrest">Change intrest</string>
+    <string name="select_your_intrest">Select your intrest</string>
+    <string name="change_my_intrest">change my intrest</string>
+    <string name="user_name">User name</string>
+    <string name="intrested_in">Intrested in:</string>
+    <string name="total_friends">total friends</string>
+    <string name="send_request">send request</string>
+    <string name="send_friend_request">send friend request</string>
+    <string name="decline_friend_request">decline friend request</string>
+    <string name="enter_message">Enter Message...</string>
+    <string name="last_seen">Last Seen</string>
+    <string name="send">send</string>
+    <string name="message">Message...</string>
+    <string name="hello_welcome">Hello welcome</string>
+
+
+</resources>

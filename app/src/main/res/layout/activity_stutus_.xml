@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stutus_Activity">
+
+
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/status_app_bar">
+    </include>
+    
+    <TextView
+        android:id="@+id/status_mainheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose your intrest"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_below="@+id/status_app_bar"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="13dp">
+    </TextView>
+    
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/status_change_spinner"
+        android:layout_below="@+id/status_mainheading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        />
+
+
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/status_input"-->
+<!--        tools:layout_editor_absoluteX="20dp"-->
+<!--        tools:layout_editor_absoluteY="150dp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/status_app_bar"-->
+<!--        android:layout_marginTop="80dp"-->
+
+<!--        >-->
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:layout_width="350dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="@string/enter_your_status"-->
+<!--            android:textColorHint="@color/colorAccent"-->
+<!--            android:paddingBottom="20dp">-->
+
+<!--        </com.google.android.material.textfield.TextInputEditText>-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+    <Button
+        android:id="@+id/status_update_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorAccent"
+        android:text="@string/save_changes"
+        android:textColor="@color/white"
+        android:layout_below="@+id/status_change_spinner"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        >
+    </Button>
+
+
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserActivity">
+
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/user_layout">
+
+    </include>
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/user_tab_layout"
+        android:layout_below="@+id/user_layout"
+        android:backgroundTint="@color/white"
+        android:background="@color/colorPrimary"
+        app:tabIndicatorColor="@color/colorPrimary"
+        app:tabIndicatorHeight="3.5dp"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="@color/colorPrimary"
+        app:tabTextColor="@color/colorPrimary"
+        tools:targetApi="lollipop"
+        >
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/sports_intrest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sports">
+
+        </com.google.android.material.tabs.TabItem>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/music_intrest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/music">
+        </com.google.android.material.tabs.TabItem>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/fitness_intrest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fitness">
+        </com.google.android.material.tabs.TabItem>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/movies_intrest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/movies">
+        </com.google.android.material.tabs.TabItem>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/cooking_intrest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cooking">
+        </com.google.android.material.tabs.TabItem>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/photography_intrest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/photography">
+        </com.google.android.material.tabs.TabItem>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/gadgets_intrest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gadgets">
+        </com.google.android.material.tabs.TabItem>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/travel_intrest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/travel">
+        </com.google.android.material.tabs.TabItem>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/games_intrest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/video_games">
+        </com.google.android.material.tabs.TabItem>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/reading_intrest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reading">
+        </com.google.android.material.tabs.TabItem>
+    </com.google.android.material.tabs.TabLayout>
+
+   <androidx.viewpager.widget.ViewPager
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/all_user_viewPager"
+       android:layout_below="@+id/user_tab_layout">
+
+   </androidx.viewpager.widget.ViewPager>
+
+
+</RelativeLayout>

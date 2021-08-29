@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "982025778580",
+    "project_id": "meetup-a45fe",
+    "storage_bucket": "meetup-a45fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982025778580:android:32cfe186021cd081d08b81",
+        "android_client_info": {
+          "package_name": "com.example.meetup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982025778580-cq1i1e6aejhlfquo5376dq61gsk7vcki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUXo8hfyLEETmFcNbJnCEBUQztxXaLoW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982025778580-cq1i1e6aejhlfquo5376dq61gsk7vcki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

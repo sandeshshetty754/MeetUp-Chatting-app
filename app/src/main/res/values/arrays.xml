@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="intrest_items">
+        <item>sports</item>
+        <item>music</item>
+        <item>fitness</item>
+        <item>movies</item>
+        <item>cooking</item>
+        <item>photography</item>
+        <item>gadgets</item>
+        <item>travel</item>
+        <item>video games</item>
+        <item>reading</item>
+    </string-array>
+</resources>
